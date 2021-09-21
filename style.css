@@ -1,0 +1,116 @@
+/*
+selecteur(s) {
+    propriété : valeur;
+}
+*/
+
+
+
+.index {
+    font-family: "Karrik-Regular";
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    background-color: black;
+    text-align: right
+}
+
+.index img {
+    object-fit: cover;
+    height: 100%;
+}
+
+body {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    grid-gap: 30px;
+    margin: 30px;
+}
+
+header {
+
+}
+
+h1 {
+    font-size: 180px;
+    color: white;
+    margin-top: 0px;
+    text-align: left
+
+}
+
+@font-face {
+    font-family: "Karrik-Regular";
+    src: url("Web/Karrik-Regular.woff2") format("woff2"),
+        url("Web/Karrik-Regular.woff") format("woff");
+}
+
+
+h2 {
+    color: white;
+    font-family:"Karrik-Regular" ;
+    font-size: 30px;
+    margin-top: 60px;
+    text-align: left;
+
+}
+
+h3 {
+    color: white;
+    font-family: "Karrik-Regular";
+    font-size: 16px;
+    text-align: left
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+   
+}
+.artiste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    grid-gap: 30px;
+    background-color: black;
+}
+.specimen1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-gap: 30px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.fleche{
+    margin-left: 150px;
+    margin-top: 140px;
+}
+p{ 
+    font-family: "Karrik-Regular" ;
+    color: white;
+    font-size: 16px;
+    margin-top: 60px;
+    text-align: left
+}
+.contact{
+    background-color: black
+
+
+}
+/* @media (min-width:632px){
+    .index{
+        grid-template-columns: repeat(2,200px);
+    }
+}
+*/
